@@ -1,0 +1,142 @@
+/* Importing Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:#561dc7;
+}
+
+/* Full page center */
+.login-container {
+  max-width: 410px;
+  margin-top: 40px;
+  border-radius: 15px;
+  padding: 52px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #cfd9ee;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  
+}
+
+/* Title */
+.form-title {
+  text-align: center;
+  font-size: 1.37rem;
+  font-weight: 600;
+  margin-bottom: 1.87rem;
+  
+}
+
+/* Social login buttons */
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.divider {
+  text-align: center;
+  width: 100%;
+  font-size: 14px;
+  margin: 12px 0; /* evenly space between sections */
+  color: #888;
+}
+
+.social-button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 8px;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+/* Input wrapper */
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 8px 20px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  gap: 10px;
+  background-color: #f9f9f9;
+}
+
+.input-field {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 100%;
+  background: transparent;
+  cursor: text;
+}
+
+/* Button */
+.login-button {
+    width: 100%;
+  padding: 10px;
+  background-color: #4338ca;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Link */
+.forgot-pass-link {
+  font-size: 12px;
+  color: white;
+  text-decoration: underline;
+  display: block;
+  margin-bottom: 12px;
+}
+
+/* Signup link */
+.signup-text {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.signup-text a {
+  color: #3b82f6;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
