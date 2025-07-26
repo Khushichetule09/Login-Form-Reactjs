@@ -1,60 +1,43 @@
-Login Form using ReactJS
+LOGIN FORM USING REACTJS :
 
-This is a responsive and modern Login Form built with ReactJS and CSS. It includes social login buttons (Google and Apple), email/password fields with icons, and a clean UI suitable for both web and mobile.
-
+A responsive and modern Login Form built with ReactJS and CSS. Includes Google and Apple login buttons, styled email/password inputs, and clean responsive layout.
 ---
-
- Project Structure
+ PROJECT STRUCTURE :
 
  login-form-react/
-├── public/
-│   ├── google.png
-│   ├── apple.png
-│   └── index.html
-├── src/
-│   ├── components/
-│   │   └── LoginForm.jsx
-│   ├── App.jsx
-│   ├── index.js
-│   ├── App.css
-│   └── index.css
-├── .gitignore
-├── package.json
-├── README.md
-└── vite.config.js
+ ├── public/
+ │   ├── google.png
+ │   ├── apple.png
+ │   └── index.html
+ ├── src/
+ │   ├── components/
+ │   │   └── LoginForm.jsx
+ │   ├── App.jsx
+ │   ├── index.js
+ │   ├── App.css
+ │   └── index.css
+ ├── .gitignore
+ ├── package.json
+ ├── README.md
+ └── vite.config.js
+ ---
 
+ FEATURES :
+
+✅ Clean and modern UI
+
+🔐 Google and Apple login buttons
+
+✉️ Email and password input with icons
+
+🔗 Forgot password and signup link
+
+📱 Responsive design for all screen sizes
 ---
 
- Features
+Clone the Repository :
 
-1)Clean and modern UI
-
-2)Google and Apple login buttons
-
-3)Email and password input with icons
-
-4)Forgot password link
-
-5)Sign-up redirect link
-
-6)Responsive design (mobile-friendly)
-
----
-
-Built With
-
-ReactJS
-
-CSS (Vanilla CSS)
-
-Vite (for development server and build tool)
-
----
-
-Clone the Repository
-
-git clone https://github.com/Khushichetule09/Login-Form-Reactjs
-
+https://github.com/Khushichetule09/Login-Form-Reactjs
 
 
 
